@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "adeleke",
+    "password": "adetokunbo",
+    "database": "ast",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "jwt_secret": "secretjwtcode"
+  },
+  "test": {
+    "use_env_variable": "TEST_DB",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "PROD_DB",
+    "dialect": "postgres",
+    "jwt_secret": "PROD_JWT_SECRET"
+  }
+}
